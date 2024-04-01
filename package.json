@@ -22,6 +22,7 @@
     "build": "tsup --clean --splitting",
     "dev": "pnpm run build --watch",
     "prepare": "husky install",
+    "release": "pnpm build && pnpm test && bumpp && pnpm publish",
     "test": "vitest run",
     "test:u": "vitest -u"
   },
@@ -29,6 +30,7 @@
     "*.{js,jsx,ts,tsx,md,html,css,json}": "prettier --write"
   },
   "devDependencies": {
+    "bumpp": "^9.4.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^3.2.2",
