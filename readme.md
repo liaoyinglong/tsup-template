@@ -8,4 +8,5 @@
 - vitest 运行测试
 - typescript 类型安全
 - bumpp 版本更新
+- tsup 打包构建
 
