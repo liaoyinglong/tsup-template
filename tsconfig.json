@@ -2,10 +2,10 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true,
-    "moduleResolution": "NodeNext"
+    "noEmit": true
   },
   "exclude": ["node_modules"]
 }
