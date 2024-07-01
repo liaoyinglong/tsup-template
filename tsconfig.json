@@ -5,7 +5,8 @@
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "verbatimModuleSyntax": true
   },
   "exclude": ["node_modules"]
 }
